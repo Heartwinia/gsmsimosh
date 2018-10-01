@@ -30,19 +30,98 @@ body{
 $theme-col: #6C65AD;
 $gradient: linear-gradient(to bottom right, #6C65AD, #6585C3);
 
+.banner-btn{
+	border: 2px solid #ffffff;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 7px 25px;
+	&:hover{
+		background-color: #ffffff;
+		color: $theme-col;
+		transition: 0.3s ease;
+	}
+}
+
+.divider{
+	display: block;
+	height: 100px;
+}
+
+.main-header{
+	margin-bottom: 40px;
+	padding: 0;
+	font-size: 32px;
+	text-align: center;
+	font-weight: bold;
+	color: $theme-col;
+	text-transform: uppercase;
+}
 
 // css for header
 .hero-content{
 	min-height: 100vh;
 	background-image: $gradient;
+	background-color: $theme-col;
 	width: 100%;
+	position: relative;
 	header{
 		background-image: none!important;
+		background-color: transparent!important;
+	}
+
+	.hero-banner{
+		overflow: hidden;
+		position: absolute;
+	    top: 50%;
+    	transform: translateY(-50%);
+		left: 0;
+		width: 100%;
+
+		.banner-content{
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 0 15px;
+			overflow: hidden;
+			display: flex;
+			align-items:center;
+			flex-direction: row-reverse;
+			.hero-right-content{
+				width: 50%;
+				text-align: center;
+
+				img{
+					display: inline-block;
+					width: 100%;
+					max-width: 330px;
+				}
+			}
+
+			.hero-left-content{
+				width: 50%;
+
+				h2{
+					font-size: 45px;
+					font-weight: 900;
+					color: #ffffff;
+					text-transform: uppercase;
+				}
+
+				p{
+					font-size: 20px;
+					font-weight: normal;
+					color: #ffffff;
+				}
+			}
+		}
 	}
 }
 
 header{
 	background-image: $gradient;
+	background-color: $theme-col;
 	padding: 0 15px;
 	overflow: hidden;
 
@@ -120,6 +199,7 @@ header{
 	.search-box{
 		width: 100%;
 		background-image: $gradient;
+		background-color: $theme-col;
 		padding: 21px 0;
 		height: 68px;
 		.search-textbox{
@@ -183,6 +263,7 @@ header{
 	top: 0;
 	left: 0;
 	background-image: $gradient;
+	background-color: $theme-col;
 	display: none;
 
 	.responsive-menus{
