@@ -1,0 +1,168 @@
+@font-face {
+  font-family: gothams;
+  src: url(../fonts/GothamPro-Light.woff);
+  font-weight: 100; }
+@font-face {
+  font-family: gothams;
+  src: url(../fonts/GothamPro-Medium.woff);
+  font-weight: normal; }
+@font-face {
+  font-family: gothams;
+  src: url(../fonts/GothamPro-Bold.woff);
+  font-weight: bold; }
+@font-face {
+  font-family: gothams;
+  src: url(../fonts/GothamPro-Black.woff);
+  font-weight: 900; }
+body {
+  width: 100%;
+  font-family: 'gothams'; }
+
+.hero-content {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom right, #6C65AD, #6585C3);
+  width: 100%; }
+  .hero-content header {
+    background-image: none !important; }
+
+header {
+  background-image: linear-gradient(to bottom right, #6C65AD, #6585C3);
+  padding: 0 15px;
+  overflow: hidden; }
+  header .left-header {
+    float: left;
+    padding: 18px 0px; }
+    header .left-header .logo img {
+      width: 170px; }
+  header .right-header {
+    float: right;
+    padding: 22px 0; }
+    header .right-header ul {
+      padding: 0;
+      margin: 0; }
+      header .right-header ul li {
+        list-style: none;
+        float: left;
+        padding: 0 20px; }
+        header .right-header ul li a {
+          color: #fff;
+          font-size: 15px;
+          font-weight: 900;
+          text-transform: uppercase; }
+          header .right-header ul li a:hover {
+            text-decoration: none; }
+        header .right-header ul li:first-child {
+          padding-left: 0; }
+        header .right-header ul li:nth-last-child(2) {
+          padding-right: 0; }
+        header .right-header ul li button {
+          padding: 0;
+          margin: 0;
+          background: transparent;
+          border: none;
+          color: #fff;
+          cursor: pointer; }
+          header .right-header ul li button:focus {
+            outline: none; }
+      header .right-header ul .menu-icon {
+        display: none; }
+
+.max-container {
+  padding: 0 15px;
+  max-width: 1366px;
+  margin: 0 auto; }
+
+.search-bar {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  top: 0;
+  left: 0;
+  display: none; }
+  .search-bar .search-box {
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #6C65AD, #6585C3);
+    padding: 21px 0;
+    height: 68px; }
+    .search-bar .search-box .search-textbox {
+      position: relative; }
+      .search-bar .search-box .search-textbox .search-text {
+        width: 100%;
+        background: transparent;
+        border: none;
+        color: #ffffff;
+        font-size: 18px;
+        padding-right: 65px; }
+        .search-bar .search-box .search-textbox .search-text:focus {
+          outline: none; }
+        .search-bar .search-box .search-textbox .search-text::placeholder {
+          color: rgba(255, 255, 255, 0.66);
+          font-style: italic;
+          font-weight: 100; }
+      .search-bar .search-box .search-textbox .search-btns {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%); }
+        .search-bar .search-box .search-textbox .search-btns ul {
+          padding: 0;
+          margin: 0; }
+          .search-bar .search-box .search-textbox .search-btns ul li {
+            float: left;
+            list-style: none;
+            padding: 0 8px; }
+            .search-bar .search-box .search-textbox .search-btns ul li button {
+              padding: 0;
+              margin: 0;
+              background: transparent;
+              border: none;
+              color: #fff;
+              cursor: pointer;
+              font-size: 18px; }
+              .search-bar .search-box .search-textbox .search-btns ul li button:focus {
+                outline: none; }
+
+.responsive-menubar {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right, #6C65AD, #6585C3);
+  display: none; }
+  .responsive-menubar .responsive-menus {
+    width: 100%;
+    padding-top: 200px; }
+    .responsive-menubar .responsive-menus ul {
+      padding: 0;
+      margin: 0;
+      width: 100%; }
+      .responsive-menubar .responsive-menus ul li {
+        width: 100%;
+        list-style: none;
+        text-align: center; }
+        .responsive-menubar .responsive-menus ul li a {
+          display: block;
+          font-size: 18px;
+          font-weight: bold;
+          color: #ffffff;
+          padding: 15px 0; }
+          .responsive-menubar .responsive-menus ul li a:hover {
+            text-decoration: none;
+            opacity: 0.8; }
+  .responsive-menubar .close-menu-btn {
+    float: right;
+    padding-top: 20px; }
+    .responsive-menubar .close-menu-btn .close-menu {
+      padding: 0;
+      margin: 0;
+      background: transparent;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      font-size: 18px; }
+      .responsive-menubar .close-menu-btn .close-menu:focus {
+        outline: none; }
+
+/*# sourceMappingURL=base.css.map */
