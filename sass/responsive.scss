@@ -20,6 +20,9 @@
 			}
 		}
 	}
+	.plan{
+		margin: 15px 0;
+	}
 }
 
 @media (max-width: 767px) {
@@ -33,6 +36,8 @@
 		.hero-banner{
 		    position: relative;
 			transform: translate(0);
+			max-width: 540px;
+			margin: 0 auto;
 			.banner-content{
 				align-items:flex-start;
 				flex-direction: column;
@@ -45,6 +50,33 @@
 					flex-basis: 100%;
 					padding-top: 20px;
 				}
+			}
+		}
+	}
+	footer{
+		.top-footer{
+			.top-left-footer{
+				float: unset;
+				padding-bottom: 15px;
+			}
+			.top-right-footer{
+				float: unset;
+				ul{
+					li{
+						float: unset;
+						margin: 0;
+						padding: 8px 0;
+					}
+				}
+			}
+		}
+		.bottom-footer{
+			.bottom-left-footer{
+				float: unset;
+			}
+			.bottom-right-footer{
+				float: unset;
+				padding: 0;
 			}
 		}
 	}

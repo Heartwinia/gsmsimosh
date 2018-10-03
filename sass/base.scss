@@ -31,18 +31,38 @@ body{
 $theme-col: #6C65AD;
 $theme-col2: #6585C3;
 $gradient: linear-gradient(to bottom right, #6C65AD, #6585C3);
+$free-col: #95A5A6;
+$silver-col: #BEBDC1;
+$gold-col: #F8973F;
+$diamond-col: #3498DB;
+$para-col: #9F9F9F;
 
 .banner-btn{
 	border: 2px solid #ffffff;
 	border-radius: 5px;
 	color: #fff;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;
 	text-transform: uppercase;
-	padding: 7px 25px;
+	padding: 2px 20px;
 	&:hover{
 		background-color: #ffffff;
-		color: $theme-col;
+		color: $theme-col2;
+		transition: 0.3s ease;
+	}
+}
+
+.main-btn{
+	border: 2px solid $theme-col;
+	border-radius: 5px;
+	color: $theme-col;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 4px 20px;
+	&:hover{
+		background-color: $theme-col;
+		color: #ffffff;
 		transition: 0.3s ease;
 	}
 }
@@ -275,6 +295,77 @@ header{
 	}
 }
 
+// css for footer
+footer{
+	.top-footer{
+		overflow: hidden;
+		background-color: #3D3D49;
+		padding: 30px;
+		.top-left-footer{
+			width: 170px;
+			float: left;
+			img{
+				width: 100%;
+			}
+		}
+		.top-right-footer{
+			float: right;
+			ul{
+				padding: 0;
+				margin: 0;
+				overflow: hidden;
+				li{
+					list-style: none;
+					float: left;
+					padding: 3px 20px;
+					a{
+						font-weight: 900;
+						font-size: 15px;
+						color: #ffffff;
+						&:hover{
+							opacity: 0.8;
+							text-decoration: none;
+						}
+					}
+				}
+				li:first-child{
+					padding-left: 0;
+				}
+				li:last-child{
+					padding-right: 0;
+				}
+			}
+		}
+	}
+
+	.bottom-footer{
+		background-color: #2E2E2E;
+		overflow: hidden;
+		.bottom-left-footer{
+			float: left;
+			p{
+				color: #ffffff;
+				font-size: 15px;
+				margin: 0;
+				padding: 10px 0px;
+			}
+		}
+		.bottom-right-footer{
+			float: right;
+			padding: 10px 0px;
+			a{
+				color: #ffffff;
+				font-size: 15px;
+				font-weight: bold;
+				&:hover{
+					opacity: 0.7;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+
 // responsive menus
 .responsive-menubar{
 	z-index: 99;
@@ -404,6 +495,122 @@ header{
 		    text-align: center;
 		    margin: 0 auto;
 		    padding-bottom: 25px;
+		}
+	}
+}
+
+
+// css for pricing plans
+
+.pricing-plans{
+	.plan{
+		width: 100%;
+		z-index: 0;
+		text-align: center;
+		background-color: #ffffff;
+		border-radius: 10px;
+		overflow: hidden;
+		padding: 0 15px;
+		position: relative;
+		.round-bg{
+		    width: 400px;
+		    background-color: #ECECEC;
+		    height: 400px;
+		    position: absolute;
+		    top: -239px;
+		    left: 50%;
+    		transform: translateX(-50%);
+		    border-radius: 100%;
+		    z-index: -1;
+		}
+		.top-bar{
+			padding: 20px 0;
+			z-index: 1;
+			img{
+				height: 65px;
+			}
+			h4{
+				font-weight: bold;
+				font-size: 20px;
+				margin: 0;
+				padding-top: 8px;
+			}
+			p{
+				font-size: 14px;
+				font-weight: 100;
+			}
+		}
+		.bottom-bar{
+			padding: 20px 0px;
+			h2{
+				font-size: 22px;
+				font-weight: bold;
+				margin-bottom: 20px;
+			}
+			ul{
+				padding: 0;
+				margin: 0;
+				padding-bottom: 5px;
+				li{
+					color: #000000;
+					list-style: none;
+					font-size: 14px;
+					padding-bottom: 15px;
+					font-weight: 100;
+				}
+			}
+		}
+	}
+	.plan-free{
+		h4, h2{
+			color: $free-col;
+		}
+		.free-btn{
+			border-color: $free-col;
+			color: $free-col;
+			&:hover{
+				background-color: $free-col;
+				color: #ffffff;
+			}
+		}
+	}
+	.plan-silver{
+		h4, h2{
+			color: $silver-col;
+		}
+		.silver-btn{
+			border-color: $silver-col;
+			color: $silver-col;
+			&:hover{
+				background-color: $silver-col;
+				color: #ffffff;
+			}
+		}
+	}
+	.plan-gold{
+		h4, h2{
+			color: $gold-col;
+		}
+		.gold-btn{
+			border-color: $gold-col;
+			color: $gold-col;
+			&:hover{
+				background-color: $gold-col;
+				color: #ffffff;
+			}
+		}
+	}
+	.plan-diamond{
+		h4, h2{
+			color: $diamond-col;
+		}
+		.diamond-btn{
+			border-color: $diamond-col;
+			color: $diamond-col;
+			&:hover{
+				background-color: $diamond-col;
+				color: #ffffff;
+			}
 		}
 	}
 }

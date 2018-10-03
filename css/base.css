@@ -23,13 +23,26 @@ body {
   border: 2px solid #ffffff;
   border-radius: 5px;
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
-  padding: 7px 25px; }
+  padding: 2px 20px; }
   .banner-btn:hover {
     background-color: #ffffff;
-    color: #6C65AD;
+    color: #6585C3;
+    transition: 0.3s ease; }
+
+.main-btn {
+  border: 2px solid #6C65AD;
+  border-radius: 5px;
+  color: #6C65AD;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 4px 20px; }
+  .main-btn:hover {
+    background-color: #6C65AD;
+    color: #ffffff;
     transition: 0.3s ease; }
 
 .divider {
@@ -203,6 +216,57 @@ header {
               .search-bar .search-box .search-textbox .search-btns ul li button:focus {
                 outline: none; }
 
+footer .top-footer {
+  overflow: hidden;
+  background-color: #3D3D49;
+  padding: 30px; }
+  footer .top-footer .top-left-footer {
+    width: 170px;
+    float: left; }
+    footer .top-footer .top-left-footer img {
+      width: 100%; }
+  footer .top-footer .top-right-footer {
+    float: right; }
+    footer .top-footer .top-right-footer ul {
+      padding: 0;
+      margin: 0;
+      overflow: hidden; }
+      footer .top-footer .top-right-footer ul li {
+        list-style: none;
+        float: left;
+        padding: 3px 20px; }
+        footer .top-footer .top-right-footer ul li a {
+          font-weight: 900;
+          font-size: 15px;
+          color: #ffffff; }
+          footer .top-footer .top-right-footer ul li a:hover {
+            opacity: 0.8;
+            text-decoration: none; }
+      footer .top-footer .top-right-footer ul li:first-child {
+        padding-left: 0; }
+      footer .top-footer .top-right-footer ul li:last-child {
+        padding-right: 0; }
+footer .bottom-footer {
+  background-color: #2E2E2E;
+  overflow: hidden; }
+  footer .bottom-footer .bottom-left-footer {
+    float: left; }
+    footer .bottom-footer .bottom-left-footer p {
+      color: #ffffff;
+      font-size: 15px;
+      margin: 0;
+      padding: 10px 0px; }
+  footer .bottom-footer .bottom-right-footer {
+    float: right;
+    padding: 10px 0px; }
+    footer .bottom-footer .bottom-right-footer a {
+      color: #ffffff;
+      font-size: 15px;
+      font-weight: bold; }
+      footer .bottom-footer .bottom-right-footer a:hover {
+        opacity: 0.7;
+        text-decoration: none; }
+
 .responsive-menubar {
   z-index: 99;
   position: fixed;
@@ -302,5 +366,86 @@ header {
       text-align: center;
       margin: 0 auto;
       padding-bottom: 25px; }
+
+.pricing-plans .plan {
+  width: 100%;
+  z-index: 0;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 0 15px;
+  position: relative; }
+  .pricing-plans .plan .round-bg {
+    width: 400px;
+    background-color: #ECECEC;
+    height: 400px;
+    position: absolute;
+    top: -239px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 100%;
+    z-index: -1; }
+  .pricing-plans .plan .top-bar {
+    padding: 20px 0;
+    z-index: 1; }
+    .pricing-plans .plan .top-bar img {
+      height: 65px; }
+    .pricing-plans .plan .top-bar h4 {
+      font-weight: bold;
+      font-size: 20px;
+      margin: 0;
+      padding-top: 8px; }
+    .pricing-plans .plan .top-bar p {
+      font-size: 14px;
+      font-weight: 100; }
+  .pricing-plans .plan .bottom-bar {
+    padding: 20px 0px; }
+    .pricing-plans .plan .bottom-bar h2 {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 20px; }
+    .pricing-plans .plan .bottom-bar ul {
+      padding: 0;
+      margin: 0;
+      padding-bottom: 5px; }
+      .pricing-plans .plan .bottom-bar ul li {
+        color: #000000;
+        list-style: none;
+        font-size: 14px;
+        padding-bottom: 15px;
+        font-weight: 100; }
+.pricing-plans .plan-free h4, .pricing-plans .plan-free h2 {
+  color: #95A5A6; }
+.pricing-plans .plan-free .free-btn {
+  border-color: #95A5A6;
+  color: #95A5A6; }
+  .pricing-plans .plan-free .free-btn:hover {
+    background-color: #95A5A6;
+    color: #ffffff; }
+.pricing-plans .plan-silver h4, .pricing-plans .plan-silver h2 {
+  color: #BEBDC1; }
+.pricing-plans .plan-silver .silver-btn {
+  border-color: #BEBDC1;
+  color: #BEBDC1; }
+  .pricing-plans .plan-silver .silver-btn:hover {
+    background-color: #BEBDC1;
+    color: #ffffff; }
+.pricing-plans .plan-gold h4, .pricing-plans .plan-gold h2 {
+  color: #F8973F; }
+.pricing-plans .plan-gold .gold-btn {
+  border-color: #F8973F;
+  color: #F8973F; }
+  .pricing-plans .plan-gold .gold-btn:hover {
+    background-color: #F8973F;
+    color: #ffffff; }
+.pricing-plans .plan-diamond h4, .pricing-plans .plan-diamond h2 {
+  color: #3498DB; }
+.pricing-plans .plan-diamond .diamond-btn {
+  border-color: #3498DB;
+  color: #3498DB; }
+  .pricing-plans .plan-diamond .diamond-btn:hover {
+    background-color: #3498DB;
+    color: #ffffff; }
 
 /*# sourceMappingURL=base.css.map */

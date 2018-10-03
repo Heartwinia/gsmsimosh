@@ -2,7 +2,7 @@
 	<div class="max-container">
 		<div class="left-header">
 			<div class="logo">
-				<a href="">
+				<a href="index.php">
 					<img src="img/logo1.svg" alt="">
 				</a>
 			</div>
