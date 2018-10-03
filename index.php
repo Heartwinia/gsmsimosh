@@ -38,9 +38,167 @@
 
 <div class="divider"></div>
 
+<!-- item lists-->
 <div class="container">
 <div class="items-lists">
 	<h2 class="main-header">select brand</h2>
+
+	<div class="main-lists">
+		<div class="item">
+			<div class="left-list-content">
+				<img src="img/items/item01.jpg" alt="">
+			</div>
+			
+			<div class="right-list-content">
+				<h4>Apple</h4>
+				<p>China mobile copy of iphone</p>
+			</div>
+		</div>
+
+		<div class="item">
+			<div class="left-list-content">
+				<img src="img/items/item02.jpg" alt="">
+			</div>
+			
+			<div class="right-list-content">
+				<h4>Apple</h4>
+				<p>China mobile copy of iphone and this is just text sample</p>
+			</div>
+		</div>
+
+		<div class="item">
+			<div class="left-list-content">
+				<img src="img/items/item03.jpg" alt="">
+			</div>
+			
+			<div class="right-list-content">
+				<h4>Apple</h4>
+				<p>China mobile copy of iphone and it is another text sample in here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, fugiat!</p>
+			</div>
+		</div>
+
+		<div class="item">
+			<div class="left-list-content">
+				<img src="img/items/item04.jpg" alt="">
+			</div>
+			
+			<div class="right-list-content">
+				<h4>Apple</h4>
+				<p>China mobile copy of iphone</p>
+			</div>
+		</div>
+
+		<div class="item">
+			<div class="left-list-content">
+				<img src="img/items/item05.jpg" alt="">
+			</div>
+			
+			<div class="right-list-content">
+				<h4>Apple</h4>
+				<p>China mobile copy of iphone</p>
+			</div>
+		</div>
+
+		<div class="item">
+			<div class="left-list-content">
+				<img src="img/items/item06.jpg" alt="">
+			</div>
+			
+			<div class="right-list-content">
+				<h4>Apple</h4>
+				<p>China mobile copy of iphone</p>
+			</div>
+		</div>
+
+		<div class="item">
+			<div class="left-list-content">
+				<img src="img/items/item01.jpg" alt="">
+			</div>
+			
+			<div class="right-list-content">
+				<h4>Apple</h4>
+				<p>China mobile copy of iphone</p>
+			</div>
+		</div>
+
+		<div class="item">
+			<div class="left-list-content">
+				<img src="img/items/item02.jpg" alt="">
+			</div>
+			
+			<div class="right-list-content">
+				<h4>Apple</h4>
+				<p>China mobile copy of iphone</p>
+			</div>
+		</div>
+
+		<div class="item">
+			<div class="left-list-content">
+				<img src="img/items/item03.jpg" alt="">
+			</div>
+			
+			<div class="right-list-content">
+				<h4>Apple</h4>
+				<p>China mobile copy of iphone</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="view-all">
+		<a href="lists.php">view all</a>
+	</div>
+</div>
+</div>
+
+
+<div class="divider"></div>
+
+<!-- get started -->
+<div class="get-started-banner">
+	<div class="container">
+		<div class="get-started-body">
+			<h2>Get Started</h2>
+
+			<p>Free user can download 2gb of files per day but for Exclusive Files they have to purchase Premium plan. For downloading Premium files please Register and select membership package and download files.</p>
+
+			<a href="register.php" class="btn banner-btn">Login now</a>
+		</div>
+	</div>
+</div>
+
+
+<div class="divider"></div>
+
+<div class="container">
+<div class="pricing-plans">
+	<h2 class="main-header">Pricing Plans</h2>
+
+	<div class="row">
+		<div class="col-sm-3 plan">
+			<div class="top-bar">
+				<img src="img/plan-free.svg" alt="">
+				<h4>$0.00</h4>
+				<p>per year</p>
+			</div>
+
+			<div class="bottom-bar">
+				<h2>Free</h2>
+
+				<ul>
+					<li>12 months</li>
+					<li>2GB download / day</li>
+					<li>2 PC change / month</li>
+				</ul>
+
+				<a href="registertwo.php" class="btn main-btn free-btn">Select plan</a>
+			</div>
+		</div>
+
+		<div class="col-sm-3"></div>
+		<div class="col-sm-3"></div>
+		<div class="col-sm-3"></div>
+	</div>
+	
 </div>
 </div>
 
