@@ -7,6 +7,8 @@
 
   .right-header ul li {
     display: none; }
+  .right-header ul li.search-icon {
+    display: block; }
   .right-header ul li.menu-icon {
     display: block; }
 

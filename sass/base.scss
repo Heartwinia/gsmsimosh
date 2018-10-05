@@ -37,6 +37,12 @@ $gold-col: #F8973F;
 $diamond-col: #3498DB;
 $para-col: #9F9F9F;
 
+.btn{
+	&:focus{
+		outline: none;
+		box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.14);
+	}
+}
 .banner-btn{
 	border: 2px solid #ffffff;
 	border-radius: 5px;
@@ -97,6 +103,92 @@ $para-col: #9F9F9F;
 	font-weight: bold;
 	color: $theme-col;
 	text-transform: uppercase;
+}
+
+.main-form{
+	background-color: #fff;
+	padding: 20px 15px;
+	border-radius: 8px;
+	
+	.mgb4{
+		margin-bottom: 4px;
+	}
+	.form-group{
+		margin-bottom: 5px;
+	}
+	.form-check{
+		margin-bottom: 5px;
+		label{
+			font-weight: 100;
+			color: $para-col;
+			a{
+				color: $para-col;
+				font-weight: bold;
+				&:hover{
+					color: $theme-col;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+	.form-header{
+		font-weight: 900;
+		font-size: 20px;
+		color: $theme-col;
+		margin-bottom: 12px;
+		text-transform: uppercase;
+	}
+	label{
+		margin-bottom: 2px;
+		color: $para-col;
+	}
+	.form-control{
+		font-weight: 100;
+		color: $para-col;
+		border: 2px solid $para-col;
+		&::placeholder{
+			font-style: italic;
+		}
+		&:focus{
+			outline: none;
+			box-shadow: none;
+			border-color: #000;
+		}
+	}
+	.small, small{
+		font-weight: 100!important;
+	}
+
+	.form-footer-info{
+		margin-top: 20px;
+		margin-bottom: 0;
+		font-weight: 100;
+		color: $para-col;
+		a{
+			color: $para-col;
+			font-weight: bold;
+			&:hover{
+				color: $theme-col;
+				text-decoration: none;
+			}
+		}
+	}
+	.other-link{
+		margin-top: 8px;
+		display: block;
+		p{
+			margin-bottom: 0;
+		}
+	}
+	.normal-link{
+		font-weight: 100;
+		color: $para-col;
+		display: inline-block;
+		&:hover{
+			color: $theme-col;
+			text-decoration: none;
+		}
+	}
 }
 
 // css for header

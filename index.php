@@ -182,7 +182,7 @@
 				<div class="top-bar">
 					<img src="img/plan-free.svg" alt="">
 					<h4>$0.00</h4>
-					<p>per year</p>
+					<p>per month</p>
 				</div>
 				<!-- eo top bar -->
 
@@ -195,7 +195,7 @@
 						<li>2 PC change / month</li>
 					</ul>
 
-					<a href="registertwo.php" class="btn main-btn free-btn">Select plan</a>
+					<a href="register.php" class="btn main-btn free-btn">Select plan</a>
 				</div>
 				<!-- eo bottom bar -->
 			</div>
@@ -207,13 +207,13 @@
 				<div class="round-bg"></div>
 				<div class="top-bar">
 					<img src="img/plan-silver.svg" alt="">
-					<h4>$0.00</h4>
-					<p>per year</p>
+					<h4>$30.00</h4>
+					<p>per month</p>
 				</div>
 				<!-- eo top bar -->
 
 				<div class="bottom-bar">
-					<h2>Free</h2>
+					<h2>Silver</h2>
 
 					<ul>
 						<li>12 months</li>
@@ -221,7 +221,7 @@
 						<li>2 PC change / month</li>
 					</ul>
 
-					<a href="registertwo.php" class="btn main-btn silver-btn">Select plan</a>
+					<a href="register.php" class="btn main-btn silver-btn">Select plan</a>
 				</div>
 				<!-- eo bottom bar -->
 			</div>
@@ -233,13 +233,13 @@
 				<div class="round-bg"></div>
 				<div class="top-bar">
 					<img src="img/plan-gold.svg" alt="">
-					<h4>$0.00</h4>
-					<p>per year</p>
+					<h4>$25.00</h4>
+					<p>per month</p>
 				</div>
 				<!-- eo top bar -->
 
 				<div class="bottom-bar">
-					<h2>Free</h2>
+					<h2>Gold</h2>
 
 					<ul>
 						<li>12 months</li>
@@ -247,7 +247,7 @@
 						<li>2 PC change / month</li>
 					</ul>
 
-					<a href="registertwo.php" class="btn main-btn gold-btn">Select plan</a>
+					<a href="register.php" class="btn main-btn gold-btn">Select plan</a>
 				</div>
 				<!-- eo bottom bar -->
 			</div>
@@ -259,13 +259,13 @@
 				<div class="round-bg"></div>
 				<div class="top-bar">
 					<img src="img/plan-diamond.svg" alt="">
-					<h4>$0.00</h4>
-					<p>per year</p>
+					<h4>$20.00</h4>
+					<p>per month</p>
 				</div>
 				<!-- eo top bar -->
 
 				<div class="bottom-bar">
-					<h2>Free</h2>
+					<h2>Diamond</h2>
 
 					<ul>
 						<li>12 months</li>
@@ -273,7 +273,7 @@
 						<li>2 PC change / month</li>
 					</ul>
 
-					<a href="registertwo.php" class="btn main-btn diamond-btn">Select plan</a>
+					<a href="register.php" class="btn main-btn diamond-btn">Select plan</a>
 				</div>
 				<!-- eo bottom bar -->
 			</div>

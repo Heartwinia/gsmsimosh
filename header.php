@@ -15,7 +15,7 @@
 				<li><a href="register.php">Register</a></li>
 				<li><a href="login.php">Login</a></li>
 				<li><a href="contact.php">Contact Us</a></li>
-				<li><button class="search-btn"><i class="fas fa-search"></i></button></li>
+				<li class="search-icon"><button class="search-btn"><i class="fas fa-search"></i></button></li>
 				<li class="menu-icon"><button class="responsive-menubar-btn"><i class="fas fa-bars"></i></button></li>
 			</ul>
 		</div>

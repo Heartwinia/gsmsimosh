@@ -19,6 +19,10 @@ body {
   font-family: 'gothams';
   background-color: #E3E3E3; }
 
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.14); }
+
 .banner-btn {
   border: 2px solid #ffffff;
   border-radius: 5px;
@@ -71,6 +75,70 @@ body {
   font-weight: bold;
   color: #6C65AD;
   text-transform: uppercase; }
+
+.main-form {
+  background-color: #fff;
+  padding: 20px 15px;
+  border-radius: 8px; }
+  .main-form .mgb4 {
+    margin-bottom: 4px; }
+  .main-form .form-group {
+    margin-bottom: 5px; }
+  .main-form .form-check {
+    margin-bottom: 5px; }
+    .main-form .form-check label {
+      font-weight: 100;
+      color: #9F9F9F; }
+      .main-form .form-check label a {
+        color: #9F9F9F;
+        font-weight: bold; }
+        .main-form .form-check label a:hover {
+          color: #6C65AD;
+          text-decoration: none; }
+  .main-form .form-header {
+    font-weight: 900;
+    font-size: 20px;
+    color: #6C65AD;
+    margin-bottom: 12px;
+    text-transform: uppercase; }
+  .main-form label {
+    margin-bottom: 2px;
+    color: #9F9F9F; }
+  .main-form .form-control {
+    font-weight: 100;
+    color: #9F9F9F;
+    border: 2px solid #9F9F9F; }
+    .main-form .form-control::placeholder {
+      font-style: italic; }
+    .main-form .form-control:focus {
+      outline: none;
+      box-shadow: none;
+      border-color: #000; }
+  .main-form .small, .main-form small {
+    font-weight: 100 !important; }
+  .main-form .form-footer-info {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-weight: 100;
+    color: #9F9F9F; }
+    .main-form .form-footer-info a {
+      color: #9F9F9F;
+      font-weight: bold; }
+      .main-form .form-footer-info a:hover {
+        color: #6C65AD;
+        text-decoration: none; }
+  .main-form .other-link {
+    margin-top: 8px;
+    display: block; }
+    .main-form .other-link p {
+      margin-bottom: 0; }
+  .main-form .normal-link {
+    font-weight: 100;
+    color: #9F9F9F;
+    display: inline-block; }
+    .main-form .normal-link:hover {
+      color: #6C65AD;
+      text-decoration: none; }
 
 .hero-content {
   min-height: 100vh;
